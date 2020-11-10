@@ -1,4 +1,4 @@
-package edu.epam.numbers.report;
+package edu.epam.task1.report;
 
 public class NumberReport {
     public void printCalculationResult(int number, int result)

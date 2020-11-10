@@ -1,8 +1,8 @@
-package edu.epam.numbers.main;
+package edu.epam.task1.main;
 
-import edu.epam.numbers.report.NumberReport;
-import edu.epam.numbers.service.NumberService;
-import edu.epam.numbers.variables.SuppliedNumber;
+import edu.epam.task1.report.NumberReport;
+import edu.epam.task1.service.NumberService;
+import edu.epam.task1.variables.SuppliedNumber;
 
 public class NumberMain {
     public static void main(String[] args)

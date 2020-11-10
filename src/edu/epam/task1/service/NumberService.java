@@ -1,4 +1,4 @@
-package edu.epam.numbers.service;
+package edu.epam.task1.service;
 
 public class NumberService {
 

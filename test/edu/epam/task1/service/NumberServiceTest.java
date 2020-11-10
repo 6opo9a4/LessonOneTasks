@@ -1,10 +1,8 @@
-package edu.epam.numbers.service;
+package edu.epam.task1.service;
 
-import edu.epam.numbers.variables.SuppliedNumber;
+import edu.epam.task1.variables.SuppliedNumber;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
-import static org.testng.Assert.*;
 
 public class NumberServiceTest {
 

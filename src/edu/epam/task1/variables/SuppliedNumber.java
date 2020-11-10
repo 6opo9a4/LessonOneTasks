@@ -1,4 +1,4 @@
-package edu.epam.numbers.variables;
+package edu.epam.task1.variables;
 
 public class SuppliedNumber {
 
