@@ -6,6 +6,14 @@ public class YearAndMonth {
 
     public YearAndMonth(int month, int year)
     {
+        if(year > 7777 || year < 1)
+        {
+            throw new IllegalArgumentException("Year is not valid!");
+        }
+        if(month > 12 || month < 1)
+        {
+            throw new IllegalArgumentException("Month is not valid!");
+        }
         this.month = month;
         this.year = year;
     }
