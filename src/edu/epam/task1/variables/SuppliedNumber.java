@@ -6,8 +6,7 @@ public class SuppliedNumber {
 
     public SuppliedNumber(int number)
     {
-        setNumber(number);
-       // this.number = number;
+       this.number = number;
     }
 
     public int getNumber()
@@ -17,7 +16,6 @@ public class SuppliedNumber {
 
     public void setNumber(int number)
     {
-        //тут ти проверка
         this.number = number;
     }
 
