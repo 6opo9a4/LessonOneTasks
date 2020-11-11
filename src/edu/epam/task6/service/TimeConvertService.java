@@ -3,7 +3,7 @@ package edu.epam.task6.service;
 public class TimeConvertService {
     public int[] secondsConvert(int seconds)
     {
-        if(seconds >= 86400) {
+        if(seconds > 86400) {
             throw new IllegalArgumentException("Count of seconds is more than in one day!");
         }
         else {
